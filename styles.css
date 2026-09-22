@@ -132,3 +132,31 @@
         max-width: 80%;
     }
 }
+
+
+/* 1. La imagen de las grúas como fondo de la sección principal */
+.hero {
+    background-image: url('grua.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Separa tu texto de la otra imagen */
+    padding: 0 50px;
+}
+
+/* 2. Estilo para la otra imagen que tenías en el HTML (la de la línea 21) */
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Opcional: le da esquinas redondeadas para que se vea más estético */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Le da sombra para que resalte sobre el fondo */
+}
+
+.hero-content h1, 
+.hero-content p {
+    color: #ffffff; /* Letras totalmente blancas */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9); /* Sombra oscura intensa */
+}
