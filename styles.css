@@ -92,7 +92,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 80px 10%;
+    padding: 60px 10%;
     background: linear-gradient(135deg, #ffffff 0%, #e9ecef 100%);
     gap: 40px;
 }
