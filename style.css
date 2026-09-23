@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+    background-color: #040d16;
+    color: rgba(255, 255, 255, 0.699);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer img {
+    width: 175px;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.Redes a:hover {
+    background-color: #0656a7;
+    color: rgba(255, 255, 255, 0.781);
+    border-radius: 50%;
+    padding: 10px;
+}
+
