@@ -81,9 +81,7 @@ body{
     align-items: center;
     gap: 5px;
 }
-main {
-    min-height: 80vh;
-}
+
 .footer img {
     width: 175px;
     height: auto;
