@@ -98,11 +98,11 @@
         e.preventDefault();
         const footerInfo = document.getElementById('contacto');
         
-        const elementPosition = footerInfo.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.pageYOffset;
-
+        const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+        const targetPosition = footerInfo.getBoundingClientRect().top + window.pageYOffset;
+    
         window.scrollTo({
-            top: offsetPosition,
+            top: Math.min(targetPosition, maxScroll),
             behavior: 'smooth'
         });
     });
