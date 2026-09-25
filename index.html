@@ -92,4 +92,13 @@
                 <p>© 2026 Construapp.| Todos los derechos reservados</p>
             </div>
         </footer>
+<script>
+    document.querySelector('a[href="#contacto"]').addEventListener('click', function(e) {
+        e.preventDefault();
+        const footerInfo = document.getElementById('contacto');
+        footerInfo.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    });
+</script>
+
+</body>
 </html>
