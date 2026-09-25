@@ -93,4 +93,18 @@
             </div>
         </footer>
 </body>
+<script>
+    document.querySelector('a[href="#contacto"]').addEventListener('click', function(e) {
+        e.preventDefault();
+        const footerInfo = document.getElementById('contacto');
+        
+        const elementPosition = footerInfo.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset;
+
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+        });
+    });
+</script>
 </html>
