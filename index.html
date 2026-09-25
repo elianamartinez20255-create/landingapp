@@ -98,6 +98,11 @@
         const footerInfo = document.getElementById('contacto');
         footerInfo.scrollIntoView({ behavior: 'smooth', block: 'end' });
     });
+    const topPos = footerInfo.getBoundingClientRect().top + window.pageYOffset;
+        window.scrollTo({
+            top: topPos,
+            behavior: 'smooth'
+        });
 </script>
 
 </body>
