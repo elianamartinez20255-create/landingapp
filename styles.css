@@ -1,4 +1,6 @@
-*{
+*{html {
+  scroll-behavior: smooth;
+}
 box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,6 +9,20 @@ box-sizing: border-box;
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.footer {
+    width: 100%;
 }
 .header {
     display: flex;
@@ -51,4 +67,285 @@ body {
     border-radius: 6px;
     cursor: pointer;
     font-weight: 600;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+    background-color: #040d16;
+    color: rgba(255, 255, 255, 0.699);
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    min-height: 100vh; 
+    box-sizing: border-box;
+}
+
+.footer img {
+    width: 175px;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.Redes a:hover {
+    background-color: #0656a7;
+    color: rgba(255, 255, 255, 0.781);
+    border-radius: 50%;
+    padding: 10px;
+}
+/* ===== ESTILOS DEL HERO (APRENDIZ 2) ===== */
+
+.principal {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Sección Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10%;
+    background: linear-gradient(135deg, #ffffff 0%, #e9ecef 100%);
+    gap: 40px;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 550px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #1a2b4c;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+    color: #ffb300;
+    font-weight: 800;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.btn-principal {
+    background-color: #ffb300;
+    color: #1a2b4c;
+    border: none;
+    padding: 16px 32px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn-principal:hover {
+    background-color: #e0a800;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    max-width: 60%;
+    height: auto;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Sección de Características */
+.caracteristicas {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.caracteristicas h2 {
+    font-size: 2.2rem;
+    color: #1a2b4c;
+    margin-bottom: 40px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    text-align: left;
+    border-top: 4px solid #ffb300;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #1a2b4c;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Diseño Responsive */
+@media (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 5%;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero-image img {
+        max-width: 80%;
+    }
+}
+
+
+/* 1. La imagen de las grúas como fondo de la sección principal */
+.hero {
+    background-image: url('grua.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Separa tu texto de la otra imagen */
+    padding: 0 50px;
+}
+
+/* 2. Estilo para la otra imagen que tenías en el HTML (la de la línea 21) */
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Opcional: le da esquinas redondeadas para que se vea más estético */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Le da sombra para que resalte sobre el fondo */
+}
+
+.hero-content h1, 
+.hero-content p {
+    color: #ffffff; /* Letras totalmente blancas */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9); /* Sombra oscura intensa */
+}
+.modal {
+    display: none; /* Oculto por defecto hasta que se hace clic en el botón */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Oscurece el fondo */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Caja principal del formulario */
+.modal-content {
+    background-color: #040d16; /* Mismo tono oscuro de tu footer */
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Título de la ventana */
+.modal-content h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #ffb703; /* Tono amarillo/naranja similar a tus botones */
+}
+
+/* Etiquetas de texto (Correo y Contraseña) */
+.modal-content label {
+    font-size: 14px;
+    margin-bottom: 3px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Campos de entrada de texto */
+.modal-content input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #1f2c3a;
+    background-color: #111b24;
+    color: #fff;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.modal-content input:focus {
+    border-color: #ffb703; /* Resalta el borde al hacer clic dentro */
+}
+
+/* Botón de ingresar dentro del formulario */
+.btn-submit {
+    background-color: #ffb703;
+    color: #000;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: #e09f00;
+}
+
+/* Botón de cerrar (la X de la esquina) */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.close-btn:hover {
+    color: #fff;
 }
