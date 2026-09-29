@@ -1,0 +1,57 @@
+*   [33m934e9d9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Resolver conflicto de integracion y limpiar estructura HTML
+[31m|[m[32m\[m  
+[31m|[m * [33mee3091c[m[33m ([m[1;32mheader[m[33m)[m Guardar cambios temporales antes de cambiar rama
+* [32m|[m [33mc3c266e[m ajustes boton de inicio de sesion
+* [32m|[m [33m9c9d74e[m ok
+* [32m|[m [33m4a62142[m ajustes de boton contacto
+* [32m|[m [33mf973884[m ok
+* [32m|[m [33me709988[m ok
+* [32m|[m [33mc9ac88e[m ajustea realizados
+* [32m|[m [33m759ff6c[m confirmado
+* [32m|[m [33m03bdbe2[m cambios boton contacto
+* [32m|[m [33m3f96cb9[m ajustes del boton contacto
+* [32m|[m [33m1151e6f[m ok
+* [32m|[m [33m6f6be05[m ajustes de contacto
+* [32m|[m [33mf7b842d[m ajustes de información de contacto
+* [32m|[m [33m1b2e23d[m ajustes botom contacto
+* [32m|[m [33me7caca7[m ajustes de boton contacto
+* [32m|[m [33md994085[m bottom contacto
+* [32m|[m [33m9f9e8a0[m bottom contacto
+* [32m|[m [33m40a5763[m bottom
+* [32m|[m [33m5aee2c5[m bottom
+* [32m|[m [33m8bb259d[m cambios
+* [32m|[m [33me154b2a[m ajustes de imagen
+* [32m|[m [33m822e6aa[m ajustes de imagen
+* [32m|[m [33m98f1e70[m cambios imagen de fondo
+* [32m|[m [33m7c9b091[m cambio en la imagen de fondo
+* [32m|[m [33m6ab82a8[m ingresar stilos rama principal
+* [32m|[m [33m2775160[m ingresar estilos del footer
+* [32m|[m [33m265151c[m ajustes de codigo
+* [32m|[m [33m7a2acbc[m copiar footer
+* [32m|[m [33m30dc1cb[m git merge footer
+* [32m|[m [33me9e522d[m enlace a style.css
+* [32m|[m [33m4743cf0[m copia css
+* [32m|[m   [33m0c1d835[m Merge branch 'footer_contruapp'
+[33m|[m[34m\[m [32m\[m  
+[33m|[m * [32m|[m [33mf71f356[m[33m ([m[1;31morigin/footer[m[33m, [m[1;32mfooter[m[33m)[m primer commit footer construapp
+[33m|[m  [32m/[m  
+* [32m|[m   [33mff2f524[m Resolver conflicto en styles.css
+[32m|[m[36m\[m [32m\[m  
+[32m|[m [36m|[m[32m/[m  
+[32m|[m[32m/[m[36m|[m   
+[32m|[m * [33mfae0f7a[m[33m ([m[1;31morigin/principal[m[33m, [m[1;32mprincipal[m[33m)[m melo
+[32m|[m * [33m4ededa9[m epa
+[32m|[m * [33mdc6db15[m melooo
+[32m|[m * [33mc83d6f3[m listo el pollo
+[32m|[m * [33m990f2e7[m melo
+[32m|[m * [33m804deac[m listo todo
+[32m|[m * [33mc055dfc[m listo todo
+[32m|[m * [33m6a5e0ff[m cambios listos
+[32m|[m * [33m4fcd4c5[m crear estructura inicial del proyecto
+* [33mc98419b[m[33m ([m[1;31morigin/header[m[33m)[m enlace a css
+* [33m761627c[m cambios
+* [33m06c610c[m cambio realizado
+* [33m9cadc1c[m cambio css
+* [33m1565d73[m cambio listo
+* [33md229746[m feat: agregar encabezado index.html y vincular estilos css
+* [33mfa9330b[m crear header y menu principal
